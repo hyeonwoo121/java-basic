@@ -5,7 +5,7 @@ public class ClassStart3 {
     public static void main(String[] args) {
         Student student1;
         student1 = new Student(); //x001 studen1 참조변수.. 힙영역 메모리에 저장되는 객체를 가르키는 변수
-        student1.name = "학생1";
+        student1.name = "학생1";// 인스턴스변수 -> 정확히는 객체 student1에 속한 name변수에 값을 저장
         student1.age = 15;
         student1.grade = 90;
 

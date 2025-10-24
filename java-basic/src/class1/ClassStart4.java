@@ -3,7 +3,7 @@ package class1;
 public class ClassStart4 {
 
     public static void main(String[] args) {
-        Student student1 = new Student(); //x001
+        Student student1 = new Student(); //x001 student1에 참조값을 보관
         student1.name = "학생1";
         student1.age = 15;
         student1.grade = 90;
