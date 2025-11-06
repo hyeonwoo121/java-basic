@@ -5,7 +5,7 @@ public class VarChange2 {
     public static void main(String[] args) {
         Data dataA = new Data();
         dataA.value = 10;
-        Data dataB = dataA;
+        Data dataB = dataA; //인스턴스가 복사되서 만들어지는게 아님. 참조값만 읽어서 dataB에 들어가는것임.
 
         System.out.println("dataA 참조값="+ dataA);
         System.out.println("dataB 참조값="+ dataB);

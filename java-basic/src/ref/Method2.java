@@ -18,7 +18,7 @@ public class Method2 {
         student.name = name;
         student.age = age;
         student.grade = grade;
-        return student; //x001
+        return student; //x001 참조값을 반환 -> 여기 메소드에서 만든 값을 바깥에서도 쓸 수 있게 리턴해줘야함!
     }
 
     static void printStudent(Student student) {
