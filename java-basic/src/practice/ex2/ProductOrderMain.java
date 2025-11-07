@@ -3,9 +3,9 @@ package practice.ex2;
 public class ProductOrderMain {
 
     public static void main(String[] args) {
-            ProductOrder[] orders = new ProductOrder[3];
+            ProductOrder[] orders = new ProductOrder[3];//new 를 쓴다는 건 메모리상에 만드는것을 의미
 
-            ProductOrder tofu = new ProductOrder();
+            ProductOrder tofu = new ProductOrder();//ProductOrder 클래스를 기반으로 tofu 객체의 참조변수를 만듬
             tofu.productName = "두부";
             tofu.price = 2000;
             tofu.quantity = 2;
