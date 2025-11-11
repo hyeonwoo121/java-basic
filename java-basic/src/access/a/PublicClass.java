@@ -1,5 +1,6 @@
 package access.a;
 
+//public 클래스는 반드시 파일명과 일치해야 한다
 public class PublicClass {
     public static void main(String[] args) {
         PublicClass publicClass = new PublicClass();
