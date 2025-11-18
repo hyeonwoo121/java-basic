@@ -7,7 +7,7 @@ public class Car {
     }
 
     //추가
-    public void openDoor() {
+    public void openDoor(){
         System.out.println("문을 엽니다.");
     }
 }
