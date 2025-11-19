@@ -9,5 +9,7 @@ public class CarMain {
         Car car3 = new Car("Model Y");
 
         Car.showTotalCars(); //구매한 차량 수를 출력하는 static메서드
+                             //객체생성없이 메소드에 접근할때는 static써야함
+                             //static안쓰고싶으면 객체생성해서 접근해야함
     }
 }

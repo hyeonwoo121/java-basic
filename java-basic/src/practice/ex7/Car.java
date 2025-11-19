@@ -2,8 +2,8 @@ package practice.ex7;
 
 public class Car {
 
-    private static int totalCars;
-    private String name;
+    private static int totalCars; //static을 써서 공통변수
+    private String name; //인스턴스 변수
 
 
     public Car(String name) {
