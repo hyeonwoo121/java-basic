@@ -8,7 +8,7 @@ public class ClassB extends ClassA {
     }
 
     public ClassB(int a, int b) {
-        super(); //부모 클래스의 생성자가 기본생성자(파라미터가없는)인 경우에는 super생략 가능.
+                super(); //부모 클래스의 생성자가 기본생성자(파라미터가없는)인 경우에는 super생략 가능.
         System.out.println("ClassB 생성자 a=" + a + " b=" + b);
     }
 }
